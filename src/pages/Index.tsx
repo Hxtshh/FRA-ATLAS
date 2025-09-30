@@ -91,7 +91,7 @@ const Index = () => {
               <MapPin className="h-16 w-16" />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              FRA Atlas & DSS
+              Van Saathi
             </h1>
             <p className="text-xl md:text-2xl mb-4 opacity-90">
               Forest Rights Act Digital Management System
