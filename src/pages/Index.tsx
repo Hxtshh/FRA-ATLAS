@@ -97,10 +97,7 @@ const Index = () => {
               Forest Rights Act Digital Management System
             </p>
             <p className="text-lg mb-8 opacity-80 max-w-2xl mx-auto">
-              Social – Empowerment & fair welfare <br />
-              Economic – Credit, schemes & livelihood <br />
-              Environmental – Eco monitoring & real-time decisions <br />
-              Governance – Single truth & faster governance
+             A digital companion to manage FRA records, map forests, and connect benefits to people — powered by FRA Atlas, WebGIS, and DSS.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/login">
