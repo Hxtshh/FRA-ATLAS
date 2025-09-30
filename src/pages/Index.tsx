@@ -185,7 +185,7 @@ const Index = () => {
       <section className="py-16 bg-gradient-to-r from-green-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-center text-primary mb-12">
-            Madhya Pradesh FRA Claims
+             FRA Claims
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* Total Claims */}
@@ -301,12 +301,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Transforming Forest Rights Management
+              FOREST RIGHT ACT 
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A comprehensive digital platform that brings transparency,
-              efficiency, and accuracy to the Forest Rights Act implementation
-              process.
+              The Forest Rights Act (FRA) 2006,is an Indian law that recognizes the rights of tribal communities and traditional forest dwellers over the land and resources they have been using for generations
             </p>
           </div>
 
