@@ -327,6 +327,8 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import tribalBg from '/images/tribal-bg.jpg';
+import { TreePine } from 'lucide-react'; // add this import
+
 import { Badge } from '@/components/ui/badge';
 import { 
   MapPin, 
@@ -409,8 +411,8 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section
-  className="relative bg-cover bg-center bg-no-repeat text-primary-foreground"
-  style={{ backgroundImage: `url(${tribalBg})` }}
+       className="relative bg-cover bg-center bg-no-repeat text-primary-foreground"
+       style={{ backgroundImage: `url(${tribalBg})` }}
 >
         {/* Optional overlay for text readability */}
         <div className="absolute inset-0 bg-black/30"></div>
@@ -418,15 +420,18 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <MapPin className="h-16 w-16" />
+              {/* <MapPin className="h-16 w-16" /> */}
+              <TreePine className="h-16 w-16" />
+
+
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-9xl md:text-6x1 font-bold mb-20">
               VanSaathi
             </h1>
-            <p className="text-xl md:text-2xl mb-4 opacity-90">
+            <p className="text-xl md:text-4xl mb-4 opacity-90">
               Forest Rights Act Digital Management System
             </p>
-            <p className="text-4xl md:text-6x2 font-bold mb-6">
+            <p className="text-4xl md:text-6x2 font-bold mb-7">
               A digital companion to manage FRA records, map forests, and connect benefits to people — powered by FRA Atlas, WebGIS, and DSS.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -446,7 +451,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* Stats Section
       <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -462,7 +467,7 @@ const Index = () => {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Features Section */}
       <section className="py-20">
